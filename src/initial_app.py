@@ -1,5 +1,5 @@
-from fasthtml.common import *
-from monsterui.all import *
+from fasthtml.common import H1, H3, A, Container, Li, P, Titled, fast_app, serve
+from monsterui.all import Button, Card, Modal, NavBar, NavContainer, NavHeaderLi, Theme
 
 # Choose a theme color
 hdrs = Theme.blue.headers()
@@ -24,9 +24,9 @@ def create_navbar():
 def create_sidebar():
     return NavContainer(  # Using NavContainer for sidebar
         NavHeaderLi("Navigation"),
-        NavLi(A("Main", href="/")),
-        NavLi(A("Page 1", href="/page1")),
-        NavLi(A("Page 2", href="/page2")),
+        Li(A("Main", href="/")),
+        Li(A("Page 1", href="/page1")),
+        Li(A("Page 2", href="/page2")),
         cls="sidebar",  # Apply CSS class for styling
     )
 
