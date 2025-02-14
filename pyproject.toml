@@ -1,0 +1,14 @@
+[project]
+name = "try-monsterui"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "monsterui>=1.0.6",
+]
+
+[dependency-groups]
+dev = [
+    "black>=25.1.0",
+]
