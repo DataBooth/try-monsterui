@@ -1,5 +1,5 @@
-from fasthtml.common import *
-from monsterui.all import *
+from fasthtml.common import P, fast_app, serve
+from monsterui.all import H1, Card, DivLAligned, TextPresets, Theme, Titled, UkIconLink
 
 # Choose a theme color (blue, green, red, etc)
 hdrs = Theme.blue.headers()
